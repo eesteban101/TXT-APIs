@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+</div>
+<h2>Here is the information for your cities:</h2>
+  <div id="city-name">{{entryOne.name}}</div>
+    <p>Temp: {{entryOne.main.temp}}</p>
+    <p>Humidity: {{entryOne.main.humidity}}</p>
+    <p>Pressure: {{entryOne.main.pressure}}</p>
+  <div id="city-name">{{entryTwo.name}}</div>
+    <p>Temp: {{entryTwo.main.temp}}</p>
+    <p>Humidity: {{entryTwo.main.humidity}}</p>
+    <p>Pressure: {{entryTwo.main.pressure}}</p>
+
+<router-outlet></router-outlet>
